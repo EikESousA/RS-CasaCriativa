@@ -1,0 +1,250 @@
+@import url(https://fonts#googleapis#com/css?family=Montserrat&display=swap);
+
+body {
+  background: #e5e5e5;
+  color: #25282b;
+  margin: 0;
+  font-family: "Montserrat", "sans-serif";
+}
+
+body #container {
+  width: 90%;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin: 40px auto 40px auto;
+}
+
+body #container #intro {
+  width: 300px;
+  margin: 0px 20px 0px 0px;
+}
+
+body #container #intro main {
+  margin: 32px 0px 32px 0px;
+}
+
+body #container #intro main p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+body #container #intro section#buttons {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body #container #intro section#buttons button {
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: #ff5e84;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+body #container #intro section#buttons button:hover {
+  text-decoration: underline;
+}
+
+body #container #intro section#buttons button#show {
+  background: #ff5e84;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px #ff5e8432;
+}
+
+body #container #intro section#buttons button#show:hover {
+  text-decoration: none;
+}
+
+body #container #intro footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #777777;
+}
+
+body #container #intro footer#hide {
+  display: none;
+}
+
+body #container #intro footer span {
+  color: #ff0000;
+  opacity: 0.7;
+}
+
+body #container #intro footer a {
+  color: #25282b;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+body #container #intro footer a:hover {
+  color: #ff5e84;
+  text-decoration: underline;
+}
+
+body #container #last-ideias #ideia {
+  display: flex;
+  margin: 0px 0px 32px 0px;
+  background-color: #ffffff;
+  padding: 32px 32px 32px 32px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px -8px rgba(1, 1, 1, 0.1);
+}
+
+body #container #last-ideias #ideia img {
+  width: 60px;
+  height: 60px;
+  margin: 0px 32px 0px 0px;
+}
+
+body #container #last-ideias #ideia #content h3 {
+  margin: 0px 0px 0px 0px;
+}
+
+body #container #last-ideias #ideia #content p {
+  margin: 8px 0px 8px 0px;
+  color: #777777;
+}
+
+body #container #last-ideias #ideia #content #description {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+body #container #last-ideias #ideia #content #description {
+  margin: 16px 0px 16px 0px;
+}
+
+body #container #last-ideias #ideia #content a {
+  color: #ff5e84;
+  font-weight: bold;
+}
+
+body #modal {
+  background: #ff5e84;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  transition: 400ms;
+}
+
+body #modal.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body #modal #content {
+  margin: 20px 0px 0px 0px;
+  color: #ffffff;
+}
+
+body #modal #content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body #modal #content form {
+  width: 80%;
+  max-width: 800px;
+  margin: 0px auto 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+body #modal #content form div:nth-child(3) {
+  grid-column: span 2;
+}
+
+body #modal #content form div:nth-child(4) {
+  grid-column: span 2;
+}
+
+body #modal #content form div:nth-child(5) {
+  grid-column: span 2;
+}
+
+body #modal #content form label {
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 0.8px;
+}
+
+body #modal #content form input {
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgba(141, 25, 52, 0.5);
+  outline: none;
+  font-size: 16px;
+}
+
+body #modal #content form textarea {
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgba(141, 25, 52, 0.5);
+  outline: none;
+  font-size: 16px;
+}
+
+body #modal #content form a {
+  width: 150px;
+  height: 40px;
+  background-color: #ffffff22;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  align-self: end;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 400ms;
+}
+
+body #modal #content form a:hover {
+  background: #ffffff;
+  color: #ff5e84;
+  text-decoration: none;
+}
+
+body #modal #content form button {
+  background: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 32px 0px 0px 0px;
+  grid-column: 2;
+  justify-self: end;
+  color: #ff5e84;
+  transition: 400ms;
+}
+
+body #modal #content form button:hover {
+  background-color: #0984e3;
+  color: #ffffff;
+  text-decoration: none;
+}
