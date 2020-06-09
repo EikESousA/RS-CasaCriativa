@@ -59,7 +59,6 @@
     <img alt="tela web um" src="./img/web-1.png" width="600" heigth="300" style="margin: 50px;"/>
     <img alt="tela web dois" src="./img/web-2.png" width="600" heigth="300" style="margin: 50px;"/>
     <img alt="tela web tres" src="./img/web-3.png" width="600" heigth="300" style="margin: 50px;"/>
-    <img alt="tela web quatro" src="./img/web-4.png" width="600" heigth="300" style="margin: 50px;"/>
   </div>
 </div>
 
