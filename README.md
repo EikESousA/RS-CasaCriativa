@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h1> WorkShop Dev Especial - Casa Criativa - 22/03/2020 - 27/03/2020 </h1>
+  <h1> WorkShop Dev Especial - Casa Criativa - 22/03/2020 - 26/03/2020 </h1>
 </div>
 
 <div align="center" style="margin: 20px;">
@@ -30,7 +30,7 @@
 <p> A aplicação foi criada através do curso realizado pela 
   <img alt="logo rocketseat" src="./img/rocketseat.png" width="auto" heigth="auto"/>
   <a href="https://rocketseat.com.br/"> Rocketseat </a>
-  (WorkShop Dev Especial), onde esse curso foi realizado no dia <strong> 22/03/2020 </strong> até o dia <strong> 27/03/2020 </strong>. 
+  (WorkShop Dev Especial), onde esse curso foi realizado no dia <strong> 22/03/2020 </strong> até o dia <strong> 26/03/2020 </strong>. 
 </p> 
 
 ## 🚀 Tecnologias Utilizadas
